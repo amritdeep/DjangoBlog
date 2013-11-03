@@ -16,10 +16,14 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
 
+    # User registration
     url(r'^accounts/login/$', 'DjangoBlog.views.login'),
     url(r'^accounts/auth/$', 'DjangoBlog.views.auth_view'),
     url(r'^accounts/logout/$', 'DjangoBlog.views.logout'),
     url(r'^accounts/loggedin$', 'DjangoBlog.views.loggedin'),
     url(r'^accounts/invalid/$', 'DjangoBlog.views.invalid_login'),
+  	url(r'^accounts/register/$', 'DjangoBlog.views.register_user'),
+  	url(r'^accounts/register_success/$', 'DjangoBlog.views.register_success'),  
+  	  
 
 )
