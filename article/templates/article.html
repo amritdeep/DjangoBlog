@@ -14,4 +14,11 @@
 <p>{{ article.body }}</p>
 <p><a href="/articles/like/{{ article.id }}">Like</a></p>
 
+<h3>Comment</h3>
+{% for c in article.comment_set.all %}
+<p>{{ c.name }}: {{ c.body }}</p>
+{% endfor %}
+
+<p><a href="/articles/add_comment/{{ article.id }}">Add Comment</a></p>
+
 {% endblock %}
