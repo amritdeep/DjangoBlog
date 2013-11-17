@@ -15,8 +15,13 @@ class Article(models.Model):
 	def __unicode__(self):
 		return self.title
 
+	def get_absolute_url(self):
+		return "/article/get/%i/" % self.id
+
 class Comment(models.Model):
-	name = models.CharField(max_length=200)
+	# name = models.CharField(max_length=200)
+	first_name = models.CharField(max_length=200)
+	last_name = models.CharField(max_length=200)
 	body = models.TextField()
 	pub_date = models.DateTimeField('date published')
 	article = models.ForeignKey(Article)
