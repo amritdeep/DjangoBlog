@@ -1,0 +1,92 @@
+[
+{
+    "pk": 1, 
+    "model": "article.article", 
+    "fields": {
+        "body": "You django project. Developed by a fast-moving online-news operation, Django was designed to handle two challenges: the intensive deadlines of a newsroom and the stringent requirements of the experienced Web developers who wrote it. It lets you build high-performing, elegant Web applications quickly.", 
+        "pub_date": "2013-11-02T11:02:30Z", 
+        "likes": 2, 
+        "title": "Django"
+    }
+},
+{
+    "pk": 2, 
+    "model": "article.article", 
+    "fields": {
+        "body": "You ROR project. Developed by a fast-moving online-news operation, Django was designed to handle two challenges: the intensive deadlines of a newsroom and the stringent requirements of the experienced Web developers who wrote it. It lets you build high-performing, elegant Web applications quickly.\r\n", 
+        "pub_date": "2013-11-02T11:03:54Z", 
+        "likes": 12, 
+        "title": "ROR"
+    }
+},
+{
+    "pk": 3, 
+    "model": "article.article", 
+    "fields": {
+        "body": "You Mangento project. Developed by a fast-moving online-news operation, Django was designed to handle two challenges: the intensive deadlines of a newsroom and the stringent requirements of the experienced Web developers who wrote it. It lets you build high-performing, elegant Web applications quickly.", 
+        "pub_date": "2013-11-02T11:04:19Z", 
+        "likes": 5, 
+        "title": "Mangento"
+    }
+},
+{
+    "pk": 4, 
+    "model": "article.article", 
+    "fields": {
+        "body": "You xcode project. Developed by a fast-moving online-news operation, Django was designed to handle two challenges: the intensive deadlines of a newsroom and the stringent requirements of the experienced Web developers who wrote it. It lets you build high-performing, elegant Web applications quickly.", 
+        "pub_date": "2013-11-03T01:42:00Z", 
+        "likes": 17, 
+        "title": "xcode"
+    }
+},
+{
+    "pk": 5, 
+    "model": "article.article", 
+    "fields": {
+        "body": "adsfadfasfasfdasfasdfadsf", 
+        "pub_date": "2013-01-01T06:00:00Z", 
+        "likes": 0, 
+        "title": "CodeIngnator"
+    }
+},
+{
+    "pk": 6, 
+    "model": "article.article", 
+    "fields": {
+        "body": "you Laveare project.", 
+        "pub_date": "2011-09-09T05:00:00Z", 
+        "likes": 7, 
+        "title": "Lavarel"
+    }
+},
+{
+    "pk": 1, 
+    "model": "article.comment", 
+    "fields": {
+        "body": "asdfas", 
+        "article": 2, 
+        "pub_date": "2013-11-04T16:24:29.039Z", 
+        "name": "AmritDeep Dhungana"
+    }
+},
+{
+    "pk": 2, 
+    "model": "article.comment", 
+    "fields": {
+        "body": "RoR is Ruby Framework.", 
+        "article": 2, 
+        "pub_date": "2013-11-04T16:24:49.261Z", 
+        "name": "Amrit"
+    }
+},
+{
+    "pk": 3, 
+    "model": "article.comment", 
+    "fields": {
+        "body": "Django is Python high level Framework. ", 
+        "article": 1, 
+        "pub_date": "2013-11-04T16:25:21.471Z", 
+        "name": "Amrit Deep Dhungana"
+    }
+}
+]

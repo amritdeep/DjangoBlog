@@ -1,0 +1,4 @@
+DjangoBlog
+==========
+
+Django Demo Project
